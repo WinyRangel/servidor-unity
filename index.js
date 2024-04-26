@@ -33,9 +33,9 @@ app.use('/', require('./routes/empleado'));
 //app.use('/api/privilegio', require('./routes/privilegio'));
 //app.use('/api/nombreRol', require('./routes/nombreRol'));
 
-//app.get('/', (req, res) => {
-   // res.send('Hola Mundo')
-//})
+app.get('/', (req, res) => {
+ res.send('Hola Mundo')
+})
 
 
 
