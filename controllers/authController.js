@@ -298,7 +298,7 @@ function resetPasswordEmail(usuario, resetToken) {
       <div class="content">
         <p>Hola ${usuario.nombre},</p>
         <p>Has solicitado restablecer tu contraseña. Para restablecerla, haz clic en el siguiente botón:</p>
-        <button type="button" class="btn btn-outline-light"><p><a href="http://localhost:4200/reset-password/${resetToken}">Restablecer Contraseña</a></p></button>
+        <button type="button" class="btn btn-outline-light"><p><a href="https://actunitycode.web.app/reset-password/${resetToken}">Restablecer Contraseña</a></p></button>
         <p>Este enlace expirará en una hora.</p>
         <p>Si no solicitaste restablecer tu contraseña, puedes ignorar este correo electrónico.</p>
         <div class="img-container">
